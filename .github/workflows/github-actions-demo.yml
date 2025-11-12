@@ -15,7 +15,7 @@ jobs:
     steps:
       - run: |
           echo "The job was triggered by event: ${{ github.event_name }}"
-          echo "The anme of your branch is ${{ hithub.ref }} and your repositoru is ."
+          echo "The anme of your branch is ${{ github.ref }} and your repositoru is ."
 
       - uses: actions/checkout@v3.3.0
 
